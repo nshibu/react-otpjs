@@ -1,14 +1,13 @@
 {
   "name": "react-otpjs",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A simple customizable react otp field",
-  "author": "Shibu N",
   "license": "MIT",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
   "types": "./lib/esm/index.d.ts",
   "files": [
-    "src"
+    "lib"
   ],
   "scripts": {
     "build": "yarn run build:esm && yarn run build:cjs ",
@@ -25,5 +24,24 @@
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "author": "Shibu N",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nshibu/react-otpjs.git"
+  },
+  "homepage": "https://github.com/nshibu/react-otpjs",
+  "bugs": {
+    "url": "https://github.com/nshibu/react-otpjs/issues"
+  },
+  "keywords": [
+    "otp",
+    "react one time password field",
+    "otp input",
+    "otp field",
+    "react otpjs",
+    "react otp input",
+    "react otp field",
+    "nextjs otp"
+  ]
 }
