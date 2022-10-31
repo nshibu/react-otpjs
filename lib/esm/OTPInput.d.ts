@@ -1,0 +1,20 @@
+import { ReactNode } from 'react';
+declare type OTPInputProps = {
+    numOfInputs?: number;
+    inputFieldWidth?: string;
+    placeHolder?: string;
+    fieldSeperator?: ReactNode;
+    filedClassName?: string;
+    containerClassName?: string;
+    autoFocus?: boolean;
+    disabled?: boolean;
+    isError?: boolean;
+    isTypeNumber?: boolean;
+    errorStyle?: Object;
+    inpuStyle?: Object;
+    inputFocusStyle?: Object;
+    onChange: (arg0: string) => string;
+    value: string;
+};
+declare const OTPInput: (otpInputProps: OTPInputProps) => JSX.Element;
+export default OTPInput;
